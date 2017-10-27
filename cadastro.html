@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Cadastro Restarurante - NetFood</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Empresa especializada em criação de aplicações tecnológicas no ramo de delivery online">
+	<meta name="keywords" content="Cadastre seu restaurante, Delivery, NetFood, Food">
+	<meta name="robots" content="index, follow">
+	<meta name="author" content="NetFood">
+	<link rel="stylesheet" href="css/cadastro.css">
+	<link rel="stylesheet" href="lib/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="icon" href="img/icon.png">
+</head>
+<body>
+
+		<header  class="container bg-red">
+		<a href="index.html">
+			<h1 class="logo">NetFood - Seu novo jeito de comer!</h1>
+		</a>
+		<button class="btn-menu">
+			<i class="fa fa-bars fa-lg"></i>
+		</button>
+		 <nav class="menu">
+            <a class="btn-close"><i class="fa fa-times"></i></a>
+            <ul>
+               <li><a href="#">Quem somos</a></li>
+               <li><a href="#">Termos e condições</a></li>
+               
+               <button id="btn" class="btn radius  bg-azul"><a href="login.html">Entrar</a></button>
+            </ul>
+         </nav>
+	</header>
+
+	<div class=" container ">
+  
+		
+          <h1 class="title">Casdastro</h2>
+         <form class="" action="">
+         <div class="box">
+        	<h2>Dados Pessoais do Restaurante</h2>
+          	<input type="text" placeholder="Nome do Restaurante" required>
+          	<input type="text" placeholder="CNPJ do Restaurante" required>
+          	<input class="dois" type="number" placeholder="Telefone" required>
+          	<select class="dois" >
+  				<option value="volvo">Tipo de Restaurante</option>
+  				<option value='Alema'>Alemã</option>
+  				<option value='Arabe'>Árabe</option>
+				<option value='Asiatica'>Asiática</option>
+				<option value='Bebidas'>Bebidas</option>
+				<option value='Brasileira'>Brasileira</option>
+				<option value='Carnes'>Carnes</option>
+				<option value='Chinesa'>Chinesa</option>
+				<option value='Contemporanea'>Contemporânea</option>
+				<option value='Cozinha rapida'>Cozinha rápida</option>
+				<option value='Doces e Salgados'>Doces e Salgados</option>
+				<option value='Francesa'>Francesa</option>
+				<option value='Frutos do Mar'>Frutos do Mar</option>
+				<option value='Indiana'>Indiana</option>
+				<option value='Italiana'>Italiana</option>
+				<option value='Japonesa'>Japonesa</option>
+				<option value='Kebaberia'>Kebaberia</option>
+				<option value='Lanches e Sanduiches'>Lanches e Sanduíches</option>
+				<option value='Marroquina'>Marroquina</option>
+				<option value='Mediterranea'>Mediterrânea</option>
+				<option value='Mexicana'>Mexicana</option>
+				<option value='Pizzaria'>Pizzaria</option>
+				<option value='Portuguesa'>Portuguesa</option>
+				<option value='Saudavel'>Saudável</option>
+				<option value='Sorvetes'>Sorvetes</option>
+				<option value='Tailandesa'>Tailandesa</option>
+				<option value='Variada'>Variada</option>
+				<option value='Vinhos'>Vinhos</option>
+			</select>
+          
+        </div>
+        <div class="box">
+        	<h2>Endereço do Restaurante</h2>
+          	<input class="dois" type="number" placeholder="CEP" required>
+          	<select class="dois" >
+  				<option selected='selected' value=''>Estado</option>
+				<option value='AC'>ACRE</option>
+				<option value='AL'>ALAGOAS</option>
+				<option value='AM'>AMAZONAS</option>
+				<option value='AP'>AMAPA</option>
+				<option value='BA'>BAHIA</option>
+				<option value='CE'>CEARA</option>
+				<option value='DF'>DISTRITO FEDERAL</option>
+				<option value='ES'>ESPIRITO SANTO</option>
+				<option value='GO'>GOIAS</option>
+				<option value='MA'>MARANHAO</option>
+				<option value='MG'>MINAS GERAIS</option>
+				<option value='MS'>MATO GROSSO DO SUL</option>
+				<option value='MT'>MATO GROSSO</option>
+				<option value='PA'>PARA</option>
+				<option value='PB'>PARAIBA</option>
+				<option value='PE'>PERNAMBUCO</option>
+				<option value='PI'>PIAUI</option>
+				<option value='PR'>PARANA</option>
+				<option value='RJ'>RIO DE JANEIRO</option>
+				<option value='RN'>RIO GRANDE DO NORTE</option>
+				<option value='RO'>RONDONIA</option>
+				<option value='RR'>RORAIMA</option>
+				<option value='RS'>RIO GRANDE DO SUL</option>
+				<option value='SC'>SANTA CATARINA</option>
+				<option value='SP'>SAO PAULO</option>
+				<option value='SE'>SERGIPE</option>
+				<option value='TO'>TOCANTINS</option>
+			</select>
+          	<input class="dois" type="text" placeholder="Bairro" required>
+          	<select class="dois" >
+  				  				<option selected='selected' value=''>Cidade</option>
+
+			</select>
+          	<input class="aux" type="text" placeholder="Endereço do Restaurante" required>
+          	<input class="aux2" type="text" placeholder="número" required>
+        </div>
+
+        <div class="box">
+        	<h2>Dados do responsável</h2>
+          	<input class="dois" type="text" placeholder="Nome" required>
+          	<input class="dois" type="text" placeholder="Sobrenome" required>
+          	<input type="text" placeholder="Email do Responsável" required>
+          	<input type="number" placeholder="Celular do Responsável" required>
+          	
+        </div>
+		<div class="caixa">
+        <button id="btn2" class="btn bg-azul radius" >Enviar Cadastro para Análise</button>
+        </form>
+        </div>
+        
+    </div>
+
+	<footer class="rodape container bg-red">
+        <div class="social-icons">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-google"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+        </div>
+        
+        <p class="copyright">
+          Copyright &copy NetFood 2017. Todos os direitos reservados.
+        </p>
+      </footer>
+
+	<script src="lib/jquery/jquery-3.1.1.min.js"></script>
+	<script>
+		$(".btn-menu").click(function(){
+      		$(".menu").show([1000]);
+    	});
+    
+    	$(".btn-close").click(function(){
+      		$(".menu").hide([500]);
+    	});
+	</script>
+</body>
+</html>

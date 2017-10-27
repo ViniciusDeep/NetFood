@@ -1,0 +1,407 @@
+/*RESET*/
+/*RESET*/
+* {
+   margin:0;
+   padding:0;
+   font-size: 100%;
+   border: none;
+   outline: none;
+   font-weight: 300;
+   box-sizing: border-box;
+   font-family: 'Roboto', sans-serif;
+}
+
+/*Geral*/
+
+  /*Reset2*/
+body{
+  background-color: #ecf0f1;
+} 
+
+a {
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container{
+  width: 100%;
+  float: left;
+  text-align: center;
+  padding: 3% 4%;
+}
+
+/*Fim do Reset2*/
+
+
+/*Alteração de botões*/
+
+.radius {
+  border-radius: 8px;
+}
+
+.shadow{
+  box-shadow: 0 0 20px #3c3c3c;
+}
+
+.btn{
+  width: 40%;
+  text-align: center;
+  font-size: 1.3em;
+  cursor: pointer;
+  padding: 3%;
+  margin-top: 7%;
+}
+
+.destaque{
+  border-bottom: 1px solid #fff;
+}
+
+/*Fim da Alteração de botões*/
+
+/*Backgrounds & Colors*/
+
+.bg-red{
+  background: #e74c3c;
+}
+
+.bg-azul{
+   background-color: #0063B2;
+}
+
+.bg-branco{
+  background-color: #fff;
+}
+
+.bg-cinza{
+  background-color: #34495e;
+}
+
+.bg-verde{
+  background: #2ecc71;
+}
+
+.color-branco{
+  color: #fff;
+}
+
+.bg-gradient{
+    background: linear-gradient(to right, #3F51B5,#03A9F4);
+
+}
+
+.bg-branco2{
+  background-color: #F0DCC4;
+}
+
+.color-branco2{
+  color: #f0dcc4;
+}
+
+.bg-marrom{
+  background-color: #3c1808;
+}
+
+.color-marrom{
+  color: #3c1808;
+}
+
+i {
+  cursor: pointer;
+}
+
+
+/*Fim do Backgrounds & Colors*/
+
+/*Fim do Geral*/
+
+
+
+/*Header*/
+
+  header h1 {
+    background-color: #f0dCC4;
+    float: left;
+    font-size: 1.1em;
+    padding: 2%;
+    font-style: italic;
+    margin-top: 5px;
+  }
+
+  header h1 a{
+    color: #3c1808;
+
+  }
+
+  .menu{
+    float: right;
+    padding: 1%;
+    margin-left: 1%;
+    width: 40%;
+  }
+
+  .menu i{
+    color: #f0dcc4;
+    font-size: 1.5em;
+    margin-left: 5%;
+  }
+
+  .tam{
+    font-size: 2em !important;
+  }
+
+  .tam2{
+    font-size: 1.5em !important;
+  }
+
+  .banner{
+    border: 1px solid #3c1808;
+    background: url(../img/bg.jpg);
+  }
+
+.title{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.title h1 {
+    font-size: 1.5em;
+    padding: 3%;
+    font-weight: bold;
+    color:#f0dcc4;
+  }
+
+.banner i{
+    color: #f0dcc4;
+    font-size: 1em;
+  }
+
+  #editar{
+    margin-top: 5%;
+    float: right;
+  }
+
+  
+  .topo_1{
+    padding: 3% 3%;
+    text-align: center;
+    float: left;
+    width: 100%;
+  }
+
+  .topo_2{    
+  padding: 2%; 
+
+  }
+  .titulo_cardapio{
+    padding-top: 3%;
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .topo_2 i {
+    color: #fff;
+  }
+
+  .geral{
+    overflow: auto;
+    width: 100%;
+    height: 400px;
+
+  }
+
+  .item_cardapio{
+    width: 95%;
+    float: right;
+    margin-top: 10px;
+    height: 80px;
+  
+  }
+
+  .item_img{
+    float: left;
+
+  }
+
+  .item_img i{
+    font-size: 5em;
+
+  }
+
+  .item_text{
+    float: left;
+    width: 60%;
+    height: 64%;
+    margin-top: 10px;
+    text-align: left;
+
+  }
+
+  .item_text h1{
+    font-size: 1em;
+    margin-bottom: 3px;
+    margin-left: 4%;
+  }
+
+  .item_text p{
+    font-size: 10px;
+    margin-left: 4%;
+  }
+
+  .item_icon{
+
+    width: 15%;
+    float: right;
+    height: 75%;
+  
+  }
+
+  .item_icon i {
+    margin-top: 40px;
+  }
+
+  hr {
+    width: 90%;
+    height: 1px;
+    background-color: #000000;
+    float: right;
+  }
+
+  /*Footer*/
+
+.rodape{
+  width: 100%;
+  float: left;
+  padding: 3% 4%;
+  text-align: center;
+  margin-top: 1%;
+  
+}
+
+
+.social-icons{
+    border-bottom: 1px solid #fff;
+
+}
+
+.social-icons a{
+  font-size: 1.3em;
+  margin-right: 3%;
+   color: #f0dcc4;
+
+}
+.social-icons a:last-child{
+  margin-right: 0;
+}
+.social-icons a:hover {
+} 
+
+.copyright{
+  margin-top: 3%;
+  font-size: 0.8em;
+
+}
+
+.contato{
+  margin-top: 3%;
+  font-size: 0.8em;
+
+}
+
+.linha{
+    border-bottom: 1px solid #fff;
+
+}
+
+/*Fim do Footer*/
+
+
+
+/*Mobile First*/
+/*Small Devices - Smartphones*/
+@media screen and (min-width: 480px) {
+  
+
+  
+}
+
+/*Small Devices - Tables*/
+@media screen and (min-width: 768px) {
+
+
+  .geral2{
+    width: 80%;
+    border: 1px solid #3c3c3c;
+    margin: 0 auto;
+  }
+
+  .topo_1{
+    padding: 0.5% 0.5%;
+  }
+  
+  footer{
+    padding: 1% 25% !important;
+  }
+
+  h1{
+    margin-left: 5%;
+  }
+
+  .menu{
+    width: 20%;
+  }
+
+  .rodape{
+    margin-top: 10%;
+  }
+
+
+}
+
+
+
+/*Medium Devices - Tables & Desktops*/
+@media screen and (min-width: 960px) {
+
+}
+
+/*Large Devices - Wide Screens*/
+@media screen and (min-width: 1024px) {
+
+.item_icon{
+  width: 8%;
+}
+
+header h1{
+  padding: 1%;
+}
+
+header .container{
+  padding: 0.5% 1%;
+}
+
+
+
+}
+
+@media screen and (min-width: 1150px) {
+
+
+
+}
+
+@media screen and (min-width: 1550px) {
+
+
+
+}
+
+/*Fim da HOME*/
+
+/*Cadastro-administrativo*/

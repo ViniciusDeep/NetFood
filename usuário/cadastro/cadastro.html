@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Cadastro Restarurante - NetFood</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Empresa especializada em criação de aplicações tecnológicas no ramo de delivery online">
+	<meta name="keywords" content="Cadastre seu restaurante, Delivery, NetFood, Food">
+	<meta name="robots" content="index, follow">
+	<meta name="author" content="NetFood">
+	<link rel="stylesheet" href="css/cadastro.css">
+	<link rel="stylesheet" href="lib/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="icon" href="img/icon.png">
+</head>
+<body>
+
+		<header  class="container bg-marrom">
+		<h1 class="radius"><a href="#">
+				Torteria di Maria
+			</a></h1>
+
+			<i class="btn-menu fa fa-arrow-circle-left color-branco2" aria-hidden="true"></i>
+
+		
+	</header> 
+
+	<div class="tam container ">
+  
+		<div class="ret bg-marrom color-branco2">
+          <span class="btn-cadastra">Cadastro</span> | <span class="btn-entrar">Entrar</span>
+          </div>
+         <form action="" class="form-cadastra">
+         <div class="box">
+        	
+          	<input class="dois" type="text" placeholder="Nome " required>
+          	<input class="dois" type="text" placeholder="Sobrenome" required>
+          	<input type="text" onfocus="(this.type='date')" placeholder="Data de Nascimento" required>
+          	<input type="email" placeholder="Email">
+          	<input type="email" placeholder="Confirmar Email">
+			<input type="password" placeholder="Senha">
+                  <p><a href="#">Ao clicar em Inscreva-se, você concorda com nossos termos e que leu nossa Política de Dados, incluindo nosso Uso de Cookies</a></p>
+
+        </div>
+        
+        <button id="btn2" class="btn bg-marrom color-branco2 radius" >Inscrever-se</button>
+        </form>
+
+        <form action="" class="form-entrar">
+         <div class="box">
+            
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Senha">
+            <p class="termos"><a href="#">Esqueceu a conta?</a></p>
+        </div>
+        
+        <button id="btn2" class="btn bg-marrom color-branco2 radius" >Entrar</button>
+        </form>
+       
+        
+    </div>
+
+	<footer class="rodape container bg-marrom color-branco2">
+        <div class="social-icons">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-google"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+        </div>
+        
+        <p class="copyright">
+          Copyright &copy NetFood 2017. Todos os direitos reservados.
+        </p>
+      </footer>
+  
+
+  <script src="lib/jquery/jquery-3.1.1.min.js"></script>
+  <script>
+    $(".btn-entrar").click(function(){
+          $(".form-entrar").show([1000]);
+          $(".form-cadastra").hide();
+
+      });
+    
+      $(".btn-cadastra").click(function(){
+          $(".form-cadastra").show([1000]);
+          $(".form-entrar").hide();
+      });
+  </script>
+	
+</body>
+</html>

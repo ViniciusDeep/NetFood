@@ -1,0 +1,441 @@
+/*RESET*/
+/*RESET*/
+* {
+   margin:0;
+   padding:0;
+   font-size: 100%;
+   border: none;
+   outline: none;
+   font-weight: 300;
+   box-sizing: border-box;
+   font-family: 'Roboto', sans-serif;
+}
+
+/*Geral*/
+
+  /*Reset2*/
+body{
+  background-color: #ecf0f1;
+} 
+
+a {
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container{
+  width: 100%;
+  float: left;
+  text-align: center;
+  padding: 4% 4%;
+}
+
+/*Fim do Reset2*/
+
+
+/*Alteração de botões*/
+
+.radius {
+  border-radius: 8px;
+}
+
+.shadow{
+  box-shadow: 0 0 20px #3c3c3c;
+}
+
+.btn{
+  width: 70%
+  text-align: center;
+  font-size: 1em;
+  cursor: pointer;
+  padding: 6% 12%;
+  margin-top: 4%;
+  color: #fff;
+}
+
+.destaque{
+  border-bottom: 1px solid #fff;
+}
+
+/*Fim da Alteração de botões*/
+
+/*Backgrounds & Colors*/
+
+.bg-red{
+  background: #e74c3c;
+}
+
+.bg-azul{
+   background-color: #0063B2;
+}
+
+.bg-branco{
+  background-color: #fff;
+}
+
+.bg-cinza{
+  background-color: #34495e;
+}
+
+.bg-verde{
+  background: #2ecc71;
+}
+
+.color-branco{
+  color: #fff;
+}
+
+.bg-gradient{
+    background: linear-gradient(to right, #3F51B5,#03A9F4);
+
+}
+
+/*Fim do Backgrounds & Colors*/
+
+/*Fim do Geral*/
+
+
+/*HOME*/
+/*Header*/
+
+
+.logo {/*logo-sujeita-alteração*/
+   width: 56px; 
+   height: 56px;
+   float:left;
+   margin-left: 4%;
+   background: url(../img/logo-mobile.png) center center/56px no-repeat;
+   font-size: 0;
+   }
+
+
+
+    /*Menu*/
+.btn-menu{
+  width: 56px;
+  height: 56px;
+  float: right;
+  text-align: center;
+  color: #c0392b;
+  background-color: #fff;
+  background-color: none;
+  border-radius: 56px;
+  cursor: pointer; 
+}
+
+.menu{
+   width: 100%;
+   height: 100%;
+   position: fixed;
+   background-color: rgba(0,0,0,0.9);
+   top: 0;
+   left: 0;
+   display: none;
+}
+
+.btn-close{
+  font-size: 2em;
+  color: #fff;
+  border-radius: 20px;
+  float: right;
+  cursor:pointer;
+  margin: 4% 4% 0 0;
+}
+
+.menu ul{
+  width: 100%;
+  float: left;
+  text-align: center;
+}   
+
+.menu li{
+  padding: 1.5%;
+}
+
+.menu li a{
+  font-size: 1.3em;
+  color:#fff;
+  padding: 1.5% 3%;
+}
+
+.menu li a:hover{
+  border-bottom: 1px solid #e74c3c;
+}
+
+button a {
+  color: #fff;
+}
+
+/*Fim do Menu*/
+
+/*Fim do Header*/
+
+.title{
+  margin-top: 6%;
+  font-size: 1.8em;
+  text-align: center;
+}
+
+.box{
+  width: 100%; 
+  text-align: left;
+  margin-bottom: 5%;
+}
+
+.box h2{
+  margin-top: 8%;
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+
+.dois{
+  width: 49% !important;
+}
+
+.aux{
+  width: 69% !important;
+}
+
+.aux2{
+  width: 29% !important;
+}
+
+.box input{
+  width: 100%;
+  margin-top: 5%;
+  background-color: #ecf0f1;
+  border: 1px solid #000000;
+  padding: 3%;
+  border-radius: 8px;
+  color: #3c3c3c;
+}
+
+.box select{
+  margin-top: 5%;
+  background-color: #ecf0f1;
+  border: 1px solid #000000;
+  padding: 3%;
+  border-radius: 8px;
+  color: #3c3c3c;
+}
+
+.caixa{
+  width: 100%;
+  text-align: center;
+}
+
+
+.rodape{
+  width: 100%;
+  float: left;
+  padding: 3% 4%;
+  text-align: center;
+  margin-top: 15%;
+  
+}
+
+
+.social-icons{
+    border-bottom: 1px solid #fff;
+
+}
+
+.social-icons a{
+  font-size: 1.5em;
+  color: rgba(255,255,255,0.7);
+  margin-right: 3%;
+
+}
+.social-icons a:last-child{
+  margin-right: 0;
+}
+.social-icons a:hover {
+  color: rgb(255,255,255);
+} 
+
+.copyright{
+  margin-top: 3%;
+  color: rgba(255,255,255,0.7);
+}
+
+
+@media screen and (min-width: 480px) {
+  
+  .container{
+  padding: 1% 7%;
+}
+
+.btn-menu{
+  margin-top: 2%;
+}
+
+
+
+  .logo {/*logo-sujeita-alteração*/
+   width: 150px; 
+   height: 80px;
+   float:left;
+   background: url(../img/logo.png) center center/150px no-repeat;
+   font-size: 0;
+   }
+  
+}
+
+/*Small Devices - Tables*/
+@media screen and (min-width: 768px) {
+
+ .box{
+    width: 48%;
+    float: left;
+    margin-right: 2%;
+  }
+
+  .box h2{
+    font-size: 1.3em;
+  }
+
+.btn{
+  width: 33%;
+  padding: 2%;
+}
+
+#btn2{
+  width: 43%;
+  padding: 4%;
+}
+
+/*Medium Devices - Tables & Desktops*/
+@media screen and (min-width: 960px) {
+
+
+.btn{
+  width: 33%;
+  padding: 2%;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.title{
+  margin-bottom: 3%;
+}
+
+.btn-menu{
+  margin-top: 2%;
+}
+}
+/*Large Devices - Wide Screens*/
+@media screen and (min-width: 1024px) {
+
+.caixa{
+  width: 95%;
+}
+
+
+#btn2{
+  width: 33%;
+  padding: 3%;
+  margin-top: 0%;
+
+}
+
+
+
+.btn-menu{
+  display: none;
+}
+
+.btn-close{
+  display: none;
+}
+
+
+.menu {
+  width: 50%;
+  height: 56px;
+  line-height: 56px;
+  float: right;
+  display: block !important;
+  position: static;
+  background: none;
+  margin-top: 1%;
+  margin-left: 5%;
+}
+
+.menu li{
+  padding: 0;
+  float: left;
+}
+
+.menu li a{
+  color: #fff;
+  font-size: 1em;
+  padding: 8px;
+}
+
+.menu li a:hover{
+  border-bottom: 1px solid #3c3c3c;
+}
+
+ .menu li:nth-child(2){
+    margin-right: 0;
+  }
+
+  .menu button{
+    display:  block !important;
+  }
+
+#btn{
+    width: 17%;
+    text-align: center;
+    font-size: 1.3em;
+    cursor: pointer;
+    float: left;
+    padding: 2%;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+
+ .box {
+    width: 30%;
+    float: left;
+    margin-right: 2%;
+  }
+
+  .box h2{
+    font-size: 1.1em;
+  }
+
+
+
+@media screen and (min-width: 1150px) {
+
+ .menu{
+    width: 40%;
+    float: right;
+  }
+
+
+
+  #btn2{
+  width: 33%;
+  padding: 3%;
+  margin-top: 0;
+}
+
+}
+
+@media screen and (min-width: 1550px) {
+
+.menu{
+    width: 40%;
+    float: right;
+  }
+
+}
